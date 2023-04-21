@@ -71,7 +71,11 @@ span {
   overflow: visible;
   background: #fff url("../img/preloader.svg") no-repeat center center;
 }
-
+.button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
 /* Back to top button */
 .back-to-top {
   position: fixed;

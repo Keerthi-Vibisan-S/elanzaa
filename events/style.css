@@ -567,12 +567,15 @@ body {
 /*Button's normal styles*/
 button{
   border: none;
-  background-color: rgb(20, 113, 220);
-  padding: 8px 16px;
+  background-color: rgb(13, 83, 174);
+  padding: 20px 20px;
   border-radius: 4px;
   color: white;
+  top: 10px;
+  right: 10px;
 }
+
 /*Change background color to green on click*/
-button:active{
+button:hover{
   background-color: rgb(51, 54, 59);
 }
