@@ -573,6 +573,7 @@ button{
   color: white;
   top: 10px;
   right: 10px;
+  font-size: large;
 }
 
 /*Change background color to green on click*/
