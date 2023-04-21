@@ -22,3 +22,15 @@ function nontechForm() {
   var formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdWlRkpZ1wClRRbJsj_4JS1FHRPmZhTHSvFFJTMiK3kapuE0A/viewform?usp=sf_link";
   window.open(formUrl);
 }
+function techForm() {
+  var formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdWlRkpZ1wClRRbJsj_4JS1FHRPmZhTHSvFFJTMiK3kapuE0A/viewform?usp=sf_link";
+  window.open(formUrl);
+}
+function workForm() {
+  var formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdWlRkpZ1wClRRbJsj_4JS1FHRPmZhTHSvFFJTMiK3kapuE0A/viewform?usp=sf_link";
+  window.open(formUrl);
+}
+function hackForm() {
+  var formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdWlRkpZ1wClRRbJsj_4JS1FHRPmZhTHSvFFJTMiK3kapuE0A/viewform?usp=sf_link";
+  window.open(formUrl);
+}

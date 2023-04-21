@@ -23,7 +23,8 @@
 </head>
 
 <body id="Home" data-spy="scroll" data-target=".navbar" data-offset="60" bgcolor="blue">
-<style>.workshop-description {
+<style>
+.workshop-description {
     border: 1px solid #ccc;
     padding: 40px;
     background-color: #f9f9f9;
@@ -39,10 +40,32 @@
   .workshop-description p {
     margin-bottom: 0;
   }
+  img {
+    height: 800px;
+    width: 700px;
+  }
+  .responsive-image {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .responsive-image {
+    max-width: 300px;
+    max-height: 400px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .responsive-image {
+    max-width: 300px;
+    max-height: 400px;
+  }
+}
+
 </style> 
 <ul class="container-fluid">
   <center><h2>Workshop</h2>
-  <img src="img/WORKSHOP.jpg" alt="" /></center>
+  <img  src="img/WORKSHOP.jpg" alt="" class="responsive-image"/></center>
   <br>
   <div class="workshop-description">
     
@@ -56,11 +79,11 @@
           your spot in our upcoming cyber security workshop.
           <br><br>
       COORDINATOR:<br>
-      COORDINATOR1 – 1234567890<br>
-      COORDINATOR2 - 1234567890  
+      Gokulakannan S –6380636765<br>
+      Kishore S -98655689000  
     </p>
     
-    <a href="" data-toggle="modal" data-target="#hackoverflow" class="text--link">Event Details</a>
+    <<br><br><center><button onclick="workForm()">Register for WORKSHOP</button></center> 
   </div>
   
 
