@@ -222,12 +222,44 @@ span {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    
+  }
+  .main_heading{
+    width: fixed;
+  }
+  
+  
+}
+/* Hide image in mobile view */
+@media screen and (max-width: 768px) {
+  .main_heading img {
+    display: none;
   }
 }
+
+/* Display text content in mobile view */
+@media screen and (max-width: 768px) {
+  .main_heading .mh1 {
+    display: block;
+  }
+}
+
+/* Adjust styles for larger screens */
+@media screen and (min-width: 768px) {
+  .main_heading img {
+    display: block;
+  }
+  
+  .main_heading .mh1 {
+    display: none;
+  }
+}
+
 
 @media (max-aspect-ratio: 16/9) {
   #vid {
     display: none;
+
   }
   #hero {
     background-image: url("../img/Capture.jpg");
@@ -1437,6 +1469,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 15px solid transparent;
   border-right: 15px solid #fff;
   left: -15px;
+}
+@media (max-width: 768px) {
+  .timeline {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .c_body {
+    display: none;
+  }
 }
 @media screen and (max-width:600px){
   .timeline{

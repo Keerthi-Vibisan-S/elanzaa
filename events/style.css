@@ -563,19 +563,16 @@ body {
         display:block !important;
     }
 
-/* workshop */
-.workshop-description {
-  border: 1px solid #ccc;
-  padding: 20px;
-  background-color: #f9f9f9;
-  margin-bottom: 20px;
+  }
+/*Button's normal styles*/
+button{
+  border: none;
+  background-color: rgb(20, 113, 220);
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: white;
 }
-
-.workshop-description h2 {
-  margin-top: 0;
-}
-
-.workshop-description p {
-  margin-bottom: 0;
-}
+/*Change background color to green on click*/
+button:active{
+  background-color: rgb(51, 54, 59);
 }
