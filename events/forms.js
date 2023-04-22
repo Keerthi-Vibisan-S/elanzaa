@@ -19,18 +19,18 @@ function frontForm() {
   window.open(formUrl);
 }
 function nontechForm() {
-  var formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdWlRkpZ1wClRRbJsj_4JS1FHRPmZhTHSvFFJTMiK3kapuE0A/viewform?usp=sf_link";
+  var formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSduGl6am2eYFfi-CZnLa9uaq-qkPVtPyslRJlUnbBhlMkQSTw/viewform";
   window.open(formUrl);
 }
 function techForm() {
-  var formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdWlRkpZ1wClRRbJsj_4JS1FHRPmZhTHSvFFJTMiK3kapuE0A/viewform?usp=sf_link";
+  var formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSduGl6am2eYFfi-CZnLa9uaq-qkPVtPyslRJlUnbBhlMkQSTw/viewform";
   window.open(formUrl);
 }
 function workForm() {
-  var formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdWlRkpZ1wClRRbJsj_4JS1FHRPmZhTHSvFFJTMiK3kapuE0A/viewform?usp=sf_link";
+  var formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSfSYBlFbkq95gKkP-vI5RNDPY_z6qcqDJP6NoB1QiMUhOxpKg/viewform";
   window.open(formUrl);
 }
 function hackForm() {
-  var formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdWlRkpZ1wClRRbJsj_4JS1FHRPmZhTHSvFFJTMiK3kapuE0A/viewform?usp=sf_link";
+  var formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSfKrNzTO2uFWZKWcos4gbi3J7dr5WJgjRUCA5LvzBjdMO1WJg/viewform";
   window.open(formUrl);
 }
